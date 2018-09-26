@@ -16,7 +16,7 @@ public class Schueler {
     private int age;
     private LocalDate birthday;
 
-    public Schueler(String name, int age, LocalDate birthday) {
+    public Schueler(String name, LocalDate birthday) {
         this.name = name;
         this.birthday = birthday;
         this.age = LocalDate.now().getYear() - birthday.getYear();
